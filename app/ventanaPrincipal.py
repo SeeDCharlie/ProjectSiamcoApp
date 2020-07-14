@@ -9,7 +9,6 @@ class mainView(wx.Frame):
         self.SetBackgroundColour(wx.WHITE)
 
         #variables
-
         self.controlDB = motorDB()
 
         self.Layout()
