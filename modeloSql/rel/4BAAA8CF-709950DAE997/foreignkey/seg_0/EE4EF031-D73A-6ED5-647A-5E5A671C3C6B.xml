@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE4EF031-D73A-6ED5-647A-5E5A671C3C6B" containerWithKeyObject="79999311-8164-2D5E-1B09-C999F241989D" localFKIndex="AFFB09DB-ACD1-4BE1-A3A9-03B0C8E3B2D2" name="lista_protocolos">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:33:15 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<referredTableLongName>sis_impermeabilizacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8711A295-D53D-ED77-2996-536F036CF04D</referredTableID>
+<keyObject>D35A3D78-91F7-742F-302E-7FCF9A422562</keyObject>
+<referredKeyID>D35A3D78-91F7-742F-302E-7FCF9A422562</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sistema</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

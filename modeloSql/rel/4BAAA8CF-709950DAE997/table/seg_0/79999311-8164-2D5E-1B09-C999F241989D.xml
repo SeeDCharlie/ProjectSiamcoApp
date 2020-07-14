@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79999311-8164-2D5E-1B09-C999F241989D" name="lista_protocolos">
+<sourceDDLFile>modelosql1.0.ddl</sourceDDLFile>
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<importedID>580F93BA-9ABB-93F3-CE25-B056763794D8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sistema" id="07AFC159-9F8F-9A19-ADDD-31D0A1888321">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:33:15 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7E1DF574-22D5-FB82-E989-11922E14706E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE4EF031-D73A-6ED5-647A-5E5A671C3C6B" referredColumn="953404FC-E94C-FC1E-9BBF-23939374D738"/>
+</associations>
+</Column>
+<Column name="id_protocolo" id="8BA0D06C-A783-6D65-51AA-9D0F29DF8547">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:33:56 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C00A49E0-E6D9-E738-42E2-534915B6BDBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FEF2C32-EC0C-9FA3-BCBB-4B803E08B45B" referredColumn="5C148B62-FF5B-71B8-354D-2B68325E1A9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFFB09DB-ACD1-4BE1-A3A9-03B0C8E3B2D2" name="lista_protocolos">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:33:15 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07AFC159-9F8F-9A19-ADDD-31D0A1888321"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75C5A2DD-DC44-EA84-8569-87B8991FE44C" name="protocolo">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:33:56 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BA0D06C-A783-6D65-51AA-9D0F29DF8547"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

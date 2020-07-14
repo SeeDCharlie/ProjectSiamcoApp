@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1982980D-A51E-6F73-086E-C4057FE1931E" name="lista_herramientas">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:51:37 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_herramienta" id="B0F0BD09-386F-4BC1-3170-46288E46257F">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:52:10 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="39118A48-E1EA-D796-611C-741B21649510">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:52:50 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="55524BD0-EDB4-430E-E35C-CB6DC0A85612">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:53:08 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="5E2DB889-5102-82B8-4933-670DB4631486">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:53:53 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_protocolo" id="1A774732-D620-F335-EBC1-ACDFBECD9433">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:54:03 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C00A49E0-E6D9-E738-42E2-534915B6BDBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5164EEB5-3FA0-06D7-20C5-D5D78AA5D619" referredColumn="5C148B62-FF5B-71B8-354D-2B68325E1A9F"/>
+</associations>
+</Column>
+<Column name="id_herramienta_1" id="E562215F-B390-D2BA-C5DF-78A37799A838">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:54:30 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF533C20-76AE-7B01-1F3F-01FEA503C276" referredColumn="785BA7B9-6A76-6308-D92E-3DC594992988"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AF6BF27-3158-C700-EE0D-35A3620674D9" name="lista_herramientas">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:54:03 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A774732-D620-F335-EBC1-ACDFBECD9433"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3053A1A5-98BD-DA88-4459-126AFBDCF840" name="herramienta">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:54:30 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E562215F-B390-D2BA-C5DF-78A37799A838"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

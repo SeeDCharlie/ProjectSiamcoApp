@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FE9EF093-D404-08BA-EA08-E0A3CE476746" containerWithKeyObject="BBFE44CD-CECE-05D2-BE1C-7BAE081916A4" localFKIndex="CF210F17-44E7-8293-3C18-BC307A23021E" name="actividad_paso">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:41:13 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<referredTableLongName>actividades</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>88371AB9-86C7-2293-61EF-D7039B2C2298</referredTableID>
+<keyObject>A736348C-A1E8-5516-9A25-BBA1C13AD369</keyObject>
+<referredKeyID>A736348C-A1E8-5516-9A25-BBA1C13AD369</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_actividad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

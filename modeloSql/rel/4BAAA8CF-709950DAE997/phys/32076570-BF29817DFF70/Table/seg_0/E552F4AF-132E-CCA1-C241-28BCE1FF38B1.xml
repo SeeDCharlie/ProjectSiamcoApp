@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="protocolos" directorySegmentName="seg_0" id="E552F4AF-132E-CCA1-C241-28BCE1FF38B1">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_protocolo" id="5C148B62-FF5B-71B8-354D-2B68325E1A9F">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre" id="6294C354-6D76-E999-16C3-D97751813465">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="descripcion" id="B6DE6F11-005E-6F75-1541-AAFDF55C2FC4">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="protocolos_PK" id="E1F71127-4C66-3FBC-14AB-9906E9F395A4">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:33:47 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

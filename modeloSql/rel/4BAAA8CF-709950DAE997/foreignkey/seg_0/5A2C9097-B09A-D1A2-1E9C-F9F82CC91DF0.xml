@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5A2C9097-B09A-D1A2-1E9C-F9F82CC91DF0" containerWithKeyObject="6FC76514-0163-65A2-E745-F7ADAA7286B5" localFKIndex="E4AFB41C-2A40-32FA-F2E6-615769E71148" name="ambito_aplicacion">
+<sourceDDLFile>modelosql1.0.ddl</sourceDDLFile>
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<importedID>134D05CA-44C9-062C-C0B9-1774CA06293A</importedID>
+<referredTableLongName>ambitos_aplicacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>016A04F5-C989-6633-1A68-5FCCE9CC7446</referredTableID>
+<keyObject>0A0F500A-6D53-3A83-BE56-63B5FD1F05E8</keyObject>
+<referredKeyID>0A0F500A-6D53-3A83-BE56-63B5FD1F05E8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ambito</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

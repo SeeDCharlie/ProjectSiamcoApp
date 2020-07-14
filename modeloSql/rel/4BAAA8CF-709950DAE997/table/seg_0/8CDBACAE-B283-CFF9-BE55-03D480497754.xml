@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CDBACAE-B283-CFF9-BE55-03D480497754" name="materiales">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:43:08 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_material" id="3D01BB30-F0E9-8C5C-645B-9E8F63566408">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:46:47 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="CC823C48-0804-8902-218D-5A532DD8EFD0">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:46:47 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="97E43317-05BB-324D-1988-06B36B7A1B3F">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:46:47 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="88B7C710-07B1-F3DB-714F-BCCCF6C3A077">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:47:19 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A3B518E-CBFD-F191-0EED-892929479F3D" name="materiales_PK">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:46:47 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D01BB30-F0E9-8C5C-645B-9E8F63566408"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

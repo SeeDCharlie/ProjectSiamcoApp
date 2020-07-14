@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11967670-FAAC-A362-C301-FCE52CACD16A" name="servicios">
+<sourceDDLFile>modelosql1.0.ddl</sourceDDLFile>
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<importedID>F5D6066A-14AE-C8A6-C82D-6555CEC71F80</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="1D38015F-1A60-06AE-2FDA-5ACF0CB800BB">
+<sourceDDLFile>modelosql1.0.ddl</sourceDDLFile>
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<importedID>C8774CCF-5CD1-CAE9-7F9F-4D70FBE5944D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>821507D2-8BA7-BE82-A509-A321F2059E05</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="98278F54-EC5A-5D78-5DE6-D2988C0496AE">
+<sourceDDLFile>modelosql1.0.ddl</sourceDDLFile>
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<importedID>176E0056-BA70-95FB-736E-38187CE8470B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>57B6CBE9-2316-43B7-0E1F-3AFBDBB7FD6C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripccion" id="0F66FA57-5F37-FBD3-7CD0-B8727ECA2DC8">
+<sourceDDLFile>modelosql1.0.ddl</sourceDDLFile>
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<importedID>028B508B-476F-0D60-383E-53655E22859B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2DACC91-F835-8797-015A-7AC344E6F46B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC42F5CF-D379-73B2-62AA-745E10AF3012" name="servicios_pk">
+<sourceDDLFile>modelosql1.0.ddl</sourceDDLFile>
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<importedID>F5EBA996-EA52-FC0C-4F68-915551668693</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D38015F-1A60-06AE-2FDA-5ACF0CB800BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

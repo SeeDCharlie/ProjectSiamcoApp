@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ambitos_aplicacion" directorySegmentName="seg_0" id="016A04F5-C989-6633-1A68-5FCCE9CC7446">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="descripcion" id="67AD271E-A618-341F-FEA2-07EA538DFE57">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre_ambito" id="D47F1128-CC64-7932-4E41-D315AB09AF82">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_ambito" id="ECD5380F-64F1-9168-208D-851F639CABA7">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_servicio" id="EDF946D3-E09E-A594-0C35-DFB042B8F09F">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="servicio_aplica" id="BA55E9AF-C39A-3AEE-AA26-811B02FD0A1A">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ambitos_aplicacion_pk" id="0A0F500A-6D53-3A83-BE56-63B5FD1F05E8">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

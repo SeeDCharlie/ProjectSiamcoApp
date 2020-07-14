@@ -1,0 +1,132 @@
+Actividad: Suministro y Aplicacion Fiber Glass Emulsión PX-900...........................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 1500
+Actividad: Suministro e Instalación de manto asfaltico Fiber Glass METALEX PRO 3MM con foil de aluminio..................  Unidad de medida : Metro Cuadrado      Valor unitario: 29000
+Actividad: Suministro y Aplicación de sistema Epoxico para tanques de almacenamiento de agua potable.....................  Unidad de medida : Metro Cuadrado      Valor unitario: 45000
+Actividad: Suministro e Instalación de sistema Geotextil NT 1600.........................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 9000
+Actividad: Suministro e Instalación de sistema Geotextil NT-1800.........................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 9000
+Actividad: Suministro e Instalación de Membrana PVC para Piscinas........................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 120000
+Actividad: Suministro e Instalación del sello de borde perimetral de la Membrana PVC con poliuretano.....................  Unidad de medida : Metro Lineal        Valor unitario: 9500
+Actividad: Suministro y Aplicación del sistema Sikafloor 2430 A dos capas................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 29000
+Actividad: Suministro y Aplicación de recubrimiento Sikafloor 264........................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 79000
+Actividad: Suministro y Aplicación del sistema Sika 101 mortero..........................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 12000
+Actividad: Suministro y Aplicación del sistema Master Seal HLM 5000......................................................  Unidad de medida : Unidad              Valor unitario: 180000
+Actividad: Suministro y Aplicación deL sistema Vulkem Peatonal antideslizante............................................  Unidad de medida : Metro Cuadrado      Valor unitario: 112000
+Actividad: Suministro y Aplicación de membrana liquida base poliuretano..................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 28000
+Actividad: Suministro y Aplicación del sistema acrílico AQUAZERO 12 Años.................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 32000
+Actividad: Suministro y Aplicación de sistema Acrílico AQUAZERO 8 años...................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 26000
+Actividad: Suministro y Aplicación del sistema acrílico AQUAZERO 5 años..................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 23000
+Actividad: Suministro e Instalación de Cordón de bentonita SUPERSTOP.....................................................  Unidad de medida : Metro Lineal        Valor unitario: 28000
+Actividad: Suministro y Aplicación de Vandex en superficie...............................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 28000
+Actividad: Suministro y Aplicación de hidrófugo LIMESTONE 10 Años........................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 9500
+Actividad: Suministro y Aplicación de impermeabilizante EUCO K-11........................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 32000
+Actividad: Suministro e Instalación del sietema EUCO MEMBRANA PVC para tanques...........................................  Unidad de medida : Metro Cuadrado      Valor unitario: 90000
+Actividad: Suministro y Aplicacion sistema EUCO Plus 1000 a dos capas y EUCO Plus 7000 a tres capas......................  Unidad de medida : Metro Cuadrado      Valor unitario: 52000
+Actividad: Suministro y Aplicación de recubrimiento epoxico TOC 80-20....................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 42000
+Actividad: Suministro y Aplicación del sistema transitable VULKEM 350-351................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 85000
+Actividad: Suministro y Aplicación de VULKEM 350 blanco..................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 85000
+Actividad: Suministro y Aplicación de sistema de Impermeabilización Sikalastic 612.......................................  Unidad de medida : Metro Cuadrado      Valor unitario: 68000
+Actividad: Suministro y Aplicación de ADESILEX PG-1 Adhesivo epoxídico(tixotrópica) para sello de membrana...............  Unidad de medida : Unidad              Valor unitario: 450000
+Actividad: Suministro y Aplicación de hidrofugo LIMESTON Plus 10 años a dos capas........................................  Unidad de medida : Metro Cuadrado      Valor unitario: 12500
+Actividad: Suministro e Instalación de membrana Sarnafil F 610-12........................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 82000
+Actividad: Suministro y Aplicación de IGASOL Cubierta,reforzado con Sikafelt y ALUMOL....................................  Unidad de medida : Metro Cuadrado      Valor unitario: 37000
+Actividad: Suministro y Aplicación de imprimante epoxico 1955............................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 13000
+Actividad: Suministro y Aplicación de capa de sellado y acabado epoxico a dos manos High Gloss RAL 5015 Azul o Gris......  Unidad de medida : Metro Cuadrado      Valor unitario: 30000
+Actividad: Preparación de superficie Retiro de rebajas e imperfecciones sobre el area....................................  Unidad de medida : Metro Cuadrado      Valor unitario: 2800
+Actividad: Limpieza y lavado de piscina..................................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 120000
+Actividad: Tratamiento de la junta con Sellasil y Vulkem 45SSL con sello de poliuretano auto nivelante...................  Unidad de medida : Metro Lineal        Valor unitario: 14200
+Actividad: Tratamiento de la junta con Sellasil y Vulkem 45SSL...........................................................  Unidad de medida : Metro Lineal        Valor unitario: 9800
+Actividad: Reparación de superficie con Verticoat 1......................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 22000
+Actividad: Limpieza de tanques de agua retiro de sedimentos y evacuación de agua.........................................  Unidad de medida : Unidad              Valor unitario: 200000
+Actividad: Confinamiento de junta con mortero de reparación estructural EUCO Patch M.....................................  Unidad de medida : Metro Lineal        Valor unitario: 14200
+Actividad: Modificación de ductos de ventilación para facilitar la reparación de membrana................................  Unidad de medida : Unidad              Valor unitario: 25000
+Actividad: Aplicación de pintura reflexiva de aluminio ALUMOL............................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 3500
+Actividad: Resane de tanques(Muros, Cielo y Piso) con mortero de reparacion estructural..................................  Unidad de medida : Metro Cuadrado      Valor unitario: 320000
+Actividad: Botas para emboquillado de tuberia(Incluye sello con VULKEM 116)..............................................  Unidad de medida : Unidad              Valor unitario: 45000
+Actividad: Calafateo perimetral con VULKEM 116...........................................................................  Unidad de medida : Metro Lineal        Valor unitario: 6800
+Actividad: Sello de fisuras y regatas con VULKEM 116.....................................................................  Unidad de medida : Metro Lineal        Valor unitario: 10500
+Actividad: Sello de fisuras con VULKEM 45 SSL............................................................................  Unidad de medida : Metro Lineal        Valor unitario: 10500
+Actividad: Sello de juntas con Sellasil soporte y Vulkem 116.............................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 8000
+Actividad: Construcción de regata perimetral para confinar sistema de impermeabilización.................................  Unidad de medida : Metro Lineal        Valor unitario: 3500
+Actividad: Retiro de manto asfalto existente.............................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 5000
+Actividad: Sello con mortero de reparación estructural Sikatop 122 Monocomponente........................................  Unidad de medida : Metro Cuadrado      Valor unitario: 4000
+Actividad: Reparación de oquedades en superficies con mortero impermeabilizado...........................................  Unidad de medida : Metro Cuadrado      Valor unitario: 18000
+Actividad: Sello de borde perimetral de membrana con poliuretano.........................................................  Unidad de medida : Metro Lineal        Valor unitario: 5500
+Actividad: Construcción de mediacaña en juntas de piscina con Sikafloor 169, Sikadur 32 primer y Sikadur 510.............  Unidad de medida : Metro Lineal        Valor unitario: 47000
+Actividad: Aplicación de recubrimiento acrílico sobre mantos para el sello de filtraciones...............................  Unidad de medida : Metro Cuadrado      Valor unitario: 22000
+Actividad: Impermeabilización de Muros con IGOL DENSO PLUS...............................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 18000
+Actividad: Impermeabilizacion de Muros con XYPEX CONCENTRADO.............................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 26000
+Actividad: Sello de filtración en junta de dilatación con bentonita y mortero de reparación estructural..................  Unidad de medida : Metro Cuadrado      Valor unitario: 35000
+Actividad: Instalación de Sello Elástico VANDEX FLEXTAPE (200*20CMS) para juntas sometidas a presión hidrostática........  Unidad de medida : Metro Cuadrado      Valor unitario: 110000
+Actividad: Instalación de enchape en muros y piso de piscinas con Sikaceram Flex.........................................  Unidad de medida : Metro Cuadrado      Valor unitario: 34000
+Actividad: Fraguado de enchape de piscinas con boquilla acrilica para piscinas Stone Mix.................................  Unidad de medida : Metro Cuadrado      Valor unitario: 4500
+Actividad: Sello de accesorios y borde de piscinas con Sikasil Pool......................................................  Unidad de medida : Unidad              Valor unitario: 70000
+Actividad: Resane de superficie para asegurar homogeneidad con Sikadur 32 Primer y Sikadur 510...........................  Unidad de medida : Metro Cuadrado      Valor unitario: 30000
+Actividad: Aplicación recubrimiento Sikafloor 2430.......................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 30000
+Actividad: Instalación mediante flameado de manto asfáltico poliéster 4MM................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 35000
+Actividad: Sello de ventanería o puertas con Sikaflex....................................................................  Unidad de medida : Unidad              Valor unitario: 8500
+Actividad: Enboquillado de bajantes con membrana PVC.....................................................................  Unidad de medida : Unidad              Valor unitario: 30000
+Actividad: Sello de borde perimetral de la membrana con Sikaflex-1A Plus i-Cure..........................................  Unidad de medida : Metro Lineal        Valor unitario: 7800
+Actividad: Aplicación de Sikafloor-264(resina epoxica pigmentada)........................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 68000
+Actividad: Aplicación de sellado y acabado epoxico a dos manos High Gloss RAL 5015 Azul o Gris...........................  Unidad de medida : Metro Cuadrado      Valor unitario: 30000
+Actividad: Construcción de regata........................................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 4500
+Actividad: Excavación de tierra..........................................................................................  Unidad de medida : Metros Cubicos      Valor unitario: 15000
+Actividad: Reparacion de juntas con mortero de reparacion estructural....................................................  Unidad de medida : Metro Lineal        Valor unitario: 16000
+Actividad: Relleno de juntas vacias o grietas con mortero de reparación estructural......................................  Unidad de medida : Metro Lineal        Valor unitario: 12500
+Actividad: Inducción de juntas de dilatación con pulidora y disco de corte...............................................  Unidad de medida : Metro Lineal        Valor unitario: 3000
+Actividad: Inducción de regata con pulidora y disco de corte en junta constructiva.......................................  Unidad de medida : Metro Lineal        Valor unitario: 10800
+Actividad: Emboquillado de bajantes......................................................................................  Unidad de medida : Unidad              Valor unitario: 30000
+Actividad: Modificación ductos de ventilación de 2"......................................................................  Unidad de medida : Unidad              Valor unitario: 18000
+Actividad: Modificación ductos de ventilación de 4"......................................................................  Unidad de medida : Unidad              Valor unitario: 28000
+Actividad: Mantenimiento losas de cubierta de puntos fijos...............................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 25000
+Actividad: Pulir superficie con copa diamantada..........................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 3500
+Actividad: Construccion de media caña en mortero.........................................................................  Unidad de medida : Metro Lineal        Valor unitario: 9500
+Actividad: Mano de obra instalacón de formaletas.........................................................................  Unidad de medida : Metro Lineal        Valor unitario: 3200
+Actividad: Mano de obra de instalación de concreto.......................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 3500
+Actividad: Mano de obra de instalación de concreto(Incluye el concreto)..................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 6000
+Actividad: Mano de obra acabado superficial del concreto con Helicóptero(Incluye el endurecido ROCKTOP)..................  Unidad de medida : Metro Cuadrado      Valor unitario: 28000
+Actividad: Sello de fisuras con mortero..................................................................................  Unidad de medida : Metro Lineal        Valor unitario: 10500
+Actividad: Retiro de tejas de fibrocemento en mal estado.................................................................  Unidad de medida : Unidad              Valor unitario: 9800
+Actividad: Instalación de tejas de Fibrocemento de 1,8m x 0,9m(Incluye la teja)..........................................  Unidad de medida : Unidad              Valor unitario: 42000
+Actividad: Instalación de tejas de Fibrocemento de 1,8m x 0,9m...........................................................  Unidad de medida : Unidad              Valor unitario: 28000
+Actividad: Reparación de caballetes(con retiro de teja fracturadas, preparación de superficie y reemplazo de tejas)......  Unidad de medida : Unidad              Valor unitario: 60000
+Actividad: Prueba de estanqueidad del sistema de impermeabilización......................................................  Unidad de medida : Unidad              Valor unitario: 300000
+Actividad: Sondeo y limpieza de bajantes.................................................................................  Unidad de medida : Unidad              Valor unitario: 45000
+Actividad: Reparación de empozamientos...................................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 25000
+Actividad: Fundicion de concreto para Piso f'c=28Mpa.....................................................................  Unidad de medida : Metros Cubicos      Valor unitario: 150000
+Actividad: Fundicion de concreto para Muros f'c=28Mpa....................................................................  Unidad de medida : Metros Cubicos      Valor unitario: 390000
+Actividad: Fundicion de concreto de Tapa f'c=28Mpa.......................................................................  Unidad de medida : Metros Cubicos      Valor unitario: 390000
+Actividad: Sondeo de bajandes de aguas de lluvia y limpieza de los mismos................................................  Unidad de medida : Unidad              Valor unitario: 55000
+Actividad: Retiro de rebabas sobre mediacaña.............................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 27000
+Actividad: Demolición y retiro de enchape y mortero de pega existente....................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 14000
+Actividad: Trasiego de escombros a sitio de almacenamiento temporal......................................................  Unidad de medida : Unidad              Valor unitario: 200000
+Actividad: Prueba hidrostática de tubería y accesorios...................................................................  Unidad de medida : Unidad              Valor unitario: 250000
+Actividad: Imprimación de superficie con emulsión asfaltica como puente de adherencia....................................  Unidad de medida : Metro Cuadrado      Valor unitario: 2000
+Actividad: Aplicación de pintura Coraza 10 años de Pintuco(inclute pintura)..............................................  Unidad de medida : Metro Cuadrado      Valor unitario: 10200
+Actividad: Aplicación de pintura perimetral y de ventanería Koraza gris basalto(Incluye pintura).........................  Unidad de medida : Metro Lineal        Valor unitario: 3800
+Actividad: Aplicación de pintura esmalte mate tipo pintuco...............................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 15400
+Actividad: Aplicación de pintura, garantía de 10 años Incluye Imprimante + 2 manos de pintura............................  Unidad de medida : Metro Cuadrado      Valor unitario: 6500
+Actividad: Instalación Piso ACME Gym espesor 10mm........................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 80000
+Actividad: Vaciado del tanque con Motobomba sumergible...................................................................  Unidad de medida : Unidad              Valor unitario: 400000
+Actividad: Preparación de superficies con pulidora para retiro de impurezas y uniformizar áreas..........................  Unidad de medida : Metro Cuadrado      Valor unitario: 3500
+Actividad: Construcción de ducto para compuerta en tanque (0,7m x 0,8m x 0,85m)..........................................  Unidad de medida : Unidad              Valor unitario: 500000
+Actividad: Aplicación de recubrimiento epoxico de alta calidad en cielo, muros y piso de los tanques.....................  Unidad de medida : Metro Cuadrado      Valor unitario: 45000
+Actividad: Aplicación de recubrimiento epoxico de alta calidad en muros de compuertas....................................  Unidad de medida : Metro Cuadrado      Valor unitario: 45000
+Actividad: Instalación del Sistema de Membrana TANQUES PVC Danopol DW HS 1,2mm...........................................  Unidad de medida : Metro Cuadrado      Valor unitario: 78000
+Actividad: Sello perimetral de la Membrana y de accesorios con Sika Primer 215 + Sikalex 1A..............................  Unidad de medida : Metro Lineal        Valor unitario: 8000
+Actividad: Aplicación recubrimiento Epoxico para tanques de almacenamiento de agua potable en Cielo y salpicadero........  Unidad de medida : Metro Cuadrado      Valor unitario: 45000
+Actividad: Sello de borde perimetral de membrana con poliuretano.........................................................  Unidad de medida : Metro Lineal        Valor unitario: 5500
+Actividad: Suministro e instalación Membrana PVC TANQUES mediante sistema de termo fundido...............................  Unidad de medida : Metro Cuadrado      Valor unitario: 78000
+Actividad: Aplicación de recubrimiento epoxico TOC-8020 de alta calidad en cielo de tanques..............................  Unidad de medida : Metro Cuadrado      Valor unitario: 45000
+Actividad: Fundición de piso en concreto 3500 PSI reforzado con Fibra SintÍtica Estructural TUF Stand SF (E=10cm)........  Unidad de medida : Metro Cuadrado      Valor unitario: 52000
+Actividad: Construcción piso en concreto Estampado con el diseño y color escogido por el cliente.........................  Unidad de medida : Metro Cuadrado      Valor unitario: 23000
+Actividad: Fabricacion de moldes para muro estampado.....................................................................  Unidad de medida : Unidad              Valor unitario: 100000
+Actividad: Aplicación de piso en poliuretano Purcem Gloss................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 112000
+Actividad: Mano de obra estampado de piso en concreto Incluye Color Hardener y desmoldante...............................  Unidad de medida : Metro Cuadrado      Valor unitario: 20000
+Actividad: Sello de concreto con Clear Seal..............................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 12000
+Actividad: Construcción piso industrial reforzado con endurecer silicio para pisos(Alisado con Helicóptero)..............  Unidad de medida : Metro Cuadrado      Valor unitario: 19000
+Actividad: Limpieza permanente de obra...................................................................................  Unidad de medida : Unidad              Valor unitario: 800000
+Actividad: Hidrolavado de superficies....................................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 15000
+Actividad: Hidrolavado de superficies con 10% de hipoclorito.............................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 15000
+Actividad: Hidrolavado y retiro de grasa con Greese Away.................................................................  Unidad de medida : Metro Cuadrado      Valor unitario: 2300
+Actividad: Limpieza de obra y retiros de escombros.......................................................................  Unidad de medida : Unidad              Valor unitario: 250000
+Actividad: Utilidad......................................................................................................  Unidad de medida : Unidad              Valor unitario: 10000
+Actividad: Administración e imprevistos..................................................................................  Unidad de medida : Unidad              Valor unitario: 100000

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A455C543-EB67-8BC8-B0EB-2678BDFB04D4" name="lista_materiales">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:47:59 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="materiales_id_material" id="D7829845-E8D4-F60A-7916-669504DEED31">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:48:20 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE284A34-59D2-D783-DC55-730029601030" referredColumn="3D01BB30-F0E9-8C5C-645B-9E8F63566408"/>
+</associations>
+</Column>
+<Column name="actividades_id_actividad" id="33D664E5-4769-3749-E364-D13307C8AE71">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:48:43 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AC284A3-D59C-8310-3333-FAB9284077A6" referredColumn="776905C6-BD84-61EE-378D-9DD6FFF103D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="507971C7-3F5F-1ED5-BCDE-C7F67ED338DA" name="material">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:48:20 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7829845-E8D4-F60A-7916-669504DEED31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BAAC913-BA3A-3B05-207A-753890329700" name="lista_materiales">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:48:43 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33D664E5-4769-3749-E364-D13307C8AE71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

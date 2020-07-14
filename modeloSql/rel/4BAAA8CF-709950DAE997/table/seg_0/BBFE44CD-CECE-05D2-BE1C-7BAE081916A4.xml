@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBFE44CD-CECE-05D2-BE1C-7BAE081916A4" name="lista_actividades">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:40:51 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="protocolos_id_protocolo" id="88A2C043-DFA2-A8E9-16A2-E818D41A7D71">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:41:01 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C00A49E0-E6D9-E738-42E2-534915B6BDBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26270E54-79F0-9714-BAE5-BCBE0548D32D" referredColumn="5C148B62-FF5B-71B8-354D-2B68325E1A9F"/>
+</associations>
+</Column>
+<Column name="actividades_id_actividad" id="1CF22ABB-4D6D-4B9B-C591-54DB3363186F">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:41:13 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE9EF093-D404-08BA-EA08-E0A3CE476746" referredColumn="776905C6-BD84-61EE-378D-9DD6FFF103D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80D6B3AF-7552-A919-E198-B330CCAED218" name="lista_pasos">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:41:01 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88A2C043-DFA2-A8E9-16A2-E818D41A7D71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF210F17-44E7-8293-3C18-BC307A23021E" name="actividad_paso">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:41:13 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CF22ABB-4D6D-4B9B-C591-54DB3363186F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

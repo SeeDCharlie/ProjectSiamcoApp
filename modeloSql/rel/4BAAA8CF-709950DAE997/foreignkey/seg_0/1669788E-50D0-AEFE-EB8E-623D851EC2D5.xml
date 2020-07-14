@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1669788E-50D0-AEFE-EB8E-623D851EC2D5" containerWithKeyObject="6FC76514-0163-65A2-E745-F7ADAA7286B5" localFKIndex="C5D00D28-5F02-A243-F828-926872E15916" name="sistema">
+<sourceDDLFile>modelosql1.0.ddl</sourceDDLFile>
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<importedID>536B648A-CBCC-1A31-DE58-1D18234C97DB</importedID>
+<referredTableLongName>sis_impermeabilizacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8711A295-D53D-ED77-2996-536F036CF04D</referredTableID>
+<keyObject>D35A3D78-91F7-742F-302E-7FCF9A422562</keyObject>
+<referredKeyID>D35A3D78-91F7-742F-302E-7FCF9A422562</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sistema</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AAB3EBEC-7198-E3D4-3CB6-2783D5CC77F7" containerWithKeyObject="016A04F5-C989-6633-1A68-5FCCE9CC7446" localFKIndex="BA55E9AF-C39A-3AEE-AA26-811B02FD0A1A" name="servicio_aplica">
+<sourceDDLFile>modelosql1.0.ddl</sourceDDLFile>
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<importedID>19DB4D23-46D0-7F21-947B-D32E1BE8EF08</importedID>
+<referredTableLongName>servicios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>11967670-FAAC-A362-C301-FCE52CACD16A</referredTableID>
+<keyObject>DC42F5CF-D379-73B2-62AA-745E10AF3012</keyObject>
+<referredKeyID>DC42F5CF-D379-73B2-62AA-745E10AF3012</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_servicio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

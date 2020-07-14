@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="lista_herramientas" directorySegmentName="seg_0" id="1982980D-A51E-6F73-086E-C4057FE1931E">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:51:37 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_protocolo" id="1A774732-D620-F335-EBC1-ACDFBECD9433">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:54:03 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre" id="39118A48-E1EA-D796-611C-741B21649510">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:52:50 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="descripcion" id="55524BD0-EDB4-430E-E35C-CB6DC0A85612">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:53:08 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="precio" id="5E2DB889-5102-82B8-4933-670DB4631486">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:53:53 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_herramienta" id="B0F0BD09-386F-4BC1-3170-46288E46257F">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:52:10 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_herramienta_1" id="E562215F-B390-D2BA-C5DF-78A37799A838">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:54:30 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="herramienta" id="3053A1A5-98BD-DA88-4459-126AFBDCF840">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:54:30 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="lista_herramientas" id="4AF6BF27-3158-C700-EE0D-35A3620674D9">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:54:03 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

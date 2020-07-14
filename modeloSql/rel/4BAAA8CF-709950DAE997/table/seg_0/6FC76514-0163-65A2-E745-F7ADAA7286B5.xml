@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FC76514-0163-65A2-E745-F7ADAA7286B5" name="lista_sistemas_imp">
+<sourceDDLFile>modelosql1.0.ddl</sourceDDLFile>
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<importedID>21D2D61A-7748-E574-DF32-34EDB51CFD5B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sistema" id="5162A369-F418-E2ED-49A2-79D5CD5D7E4F">
+<sourceDDLFile>modelosql1.0.ddl</sourceDDLFile>
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<importedID>08A30AA9-A451-FB43-654E-9B6D714EB22B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7E1DF574-22D5-FB82-E989-11922E14706E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1669788E-50D0-AEFE-EB8E-623D851EC2D5" referredColumn="953404FC-E94C-FC1E-9BBF-23939374D738"/>
+</associations>
+</Column>
+<Column name="id_ambito" id="F72F9A57-E428-8ECC-D6D4-9B2B6227C2E8">
+<sourceDDLFile>modelosql1.0.ddl</sourceDDLFile>
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<importedID>C7EE4D71-19D4-00B2-17D3-F410AACF5541</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7E1DF574-22D5-FB82-E989-11922E14706E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A2C9097-B09A-D1A2-1E9C-F9F82CC91DF0" referredColumn="ECD5380F-64F1-9168-208D-851F639CABA7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4AFB41C-2A40-32FA-F2E6-615769E71148" name="ambito_aplicacion">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F72F9A57-E428-8ECC-D6D4-9B2B6227C2E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5D00D28-5F02-A243-F828-926872E15916" name="sistema">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:23:45 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5162A369-F418-E2ED-49A2-79D5CD5D7E4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

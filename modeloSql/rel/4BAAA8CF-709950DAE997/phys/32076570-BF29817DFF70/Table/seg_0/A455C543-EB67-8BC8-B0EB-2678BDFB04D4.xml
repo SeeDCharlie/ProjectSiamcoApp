@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="lista_materiales" directorySegmentName="seg_0" id="A455C543-EB67-8BC8-B0EB-2678BDFB04D4">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:47:59 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="actividades_id_actividad" id="33D664E5-4769-3749-E364-D13307C8AE71">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:48:43 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="materiales_id_material" id="D7829845-E8D4-F60A-7916-669504DEED31">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:48:20 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="material" id="507971C7-3F5F-1ED5-BCDE-C7F67ED338DA">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:48:20 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="lista_materiales" id="7BAAC913-BA3A-3B05-207A-753890329700">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:48:43 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

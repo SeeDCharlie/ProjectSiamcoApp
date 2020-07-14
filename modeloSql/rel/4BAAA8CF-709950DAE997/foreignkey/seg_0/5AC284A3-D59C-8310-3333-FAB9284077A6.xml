@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5AC284A3-D59C-8310-3333-FAB9284077A6" containerWithKeyObject="A455C543-EB67-8BC8-B0EB-2678BDFB04D4" localFKIndex="7BAAC913-BA3A-3B05-207A-753890329700" name="lista_materiales">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:48:43 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<referredTableLongName>actividades</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>88371AB9-86C7-2293-61EF-D7039B2C2298</referredTableID>
+<keyObject>A736348C-A1E8-5516-9A25-BBA1C13AD369</keyObject>
+<referredKeyID>A736348C-A1E8-5516-9A25-BBA1C13AD369</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_actividad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

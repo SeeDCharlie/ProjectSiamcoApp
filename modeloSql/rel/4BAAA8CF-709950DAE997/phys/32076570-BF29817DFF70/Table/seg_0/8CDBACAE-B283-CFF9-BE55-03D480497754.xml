@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="materiales" directorySegmentName="seg_0" id="8CDBACAE-B283-CFF9-BE55-03D480497754">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:43:08 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_material" id="3D01BB30-F0E9-8C5C-645B-9E8F63566408">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:46:47 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="precio" id="88B7C710-07B1-F3DB-714F-BCCCF6C3A077">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:47:19 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="descripcion" id="97E43317-05BB-324D-1988-06B36B7A1B3F">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:46:47 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre" id="CC823C48-0804-8902-218D-5A532DD8EFD0">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:46:47 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="materiales_PK" id="2A3B518E-CBFD-F191-0EED-892929479F3D">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 19:46:47 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

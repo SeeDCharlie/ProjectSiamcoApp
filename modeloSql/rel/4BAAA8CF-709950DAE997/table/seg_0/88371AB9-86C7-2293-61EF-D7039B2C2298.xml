@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88371AB9-86C7-2293-61EF-D7039B2C2298" name="actividades">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:35:39 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_actividad" id="776905C6-BD84-61EE-378D-9DD6FFF103D6">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:36:43 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="6A5C9D2A-25F7-177A-F8E3-6F140A405BFF">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:36:43 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="714A8D3E-83F0-204D-4576-644FF06B01BB">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:36:43 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_unitario" id="F51EECCF-E09A-2B84-E6DF-1866BBBFCD83">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:42:14 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidad_medida" id="077AFC09-AB13-53C3-170C-3A7A3A65CB2B">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:42:49 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A736348C-A1E8-5516-9A25-BBA1C13AD369" name="actividades_PK">
+<createdBy>Usuario1</createdBy>
+<createdTime>2020-06-18 18:36:43 UTC</createdTime>
+<ownerDesignName>siamco_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="776905C6-BD84-61EE-378D-9DD6FFF103D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
