@@ -1,6 +1,6 @@
 import wx
 from controls.controlDB import motorDB 
-
+from views.frameLoggin import logginView
 
 class mainView(wx.Frame):
 
@@ -10,6 +10,9 @@ class mainView(wx.Frame):
 
         #variables
         self.controlDB = motorDB()
+
+        loggin = logginView(self, (self.Size[0]/2, self.Size[1]/2 )).ShowModal()
+        print("return modal : ", loggin)
 
         self.Layout()
         self.Centre()
