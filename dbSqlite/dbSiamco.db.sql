@@ -7,7 +7,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 	`pass`	TEXT NOT NULL,
 	`phone`	NUMERIC
 );
-INSERT INTO `users` (idUser,userName,name,lastName,pass,phone) VALUES (1,'admuno','carlos','castillo','admuno',16513);
+INSERT INTO `users` (idUser,userName,name,lastName,pass,phone) VALUES (1,'admuno','carlos','castillo','admuno',16513),
+ (2,'admdos','rufino','castillo','admdos',16513536);
 CREATE TABLE IF NOT EXISTS `activities` (
 	`cod`	TEXT NOT NULL,
 	`description`	TEXT NOT NULL,
