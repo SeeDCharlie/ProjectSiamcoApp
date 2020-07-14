@@ -2,6 +2,8 @@ import codecs
 from unidecode import unidecode
 import os
 import pandas as pd
+import sqlite3
+from sqlite3 import Error
 
 class manageFile():
 
@@ -117,9 +119,32 @@ class manageFile():
                 newlist[i]= '0'
 
         return newlist
+    
+    def insertActivities(self):
+        try:
+            conexion = sqlite3.connect("/home/seed/Documentos/siamco_db/dbSqlite/dbSiamco.db")
+            print(sqlite3.version)
+
+        except Error as e:
+            print(e)
+        finally:
+            if conexion:
+                cursor = conexion.cursor()
+                print("conexion exitosa!")
+                f = open("/home/seed/Documentos/siamco_db/filesCsv/SIAMCO_ACTIVITIES.csv", "r")
+                lDats = []
+                for i, line in enumerate(f.readlines()):
+                    dats = line.split("|")
+                    lDats.append((dats[1], dats[2], dats[3], dats[4]))
+                    print("linea %d : "%i, dats)
+                cursor.executemany("insert into activities(cod, description, und, value) values(?,?,?,?)", lDats)
+                conexion.commit()
+                conexion.close()
+    
+
 
 manage = manageFile()
-manage.generateFileDB()
+manage.insertActivities()
 
 """manage.review_to_demo("/home/seed/Documentos/siamco_db/filesCsv/")
 manage.clearDomoFile("/home/seed/Documentos/siamco_db/filesCsv/")
