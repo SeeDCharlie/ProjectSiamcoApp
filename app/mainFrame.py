@@ -1,6 +1,8 @@
 import wx
+import os
 from controls.controlDB import motorDB 
 from views.frameLoggin import logginView
+
 
 class mainView(wx.Frame):
 
@@ -10,8 +12,10 @@ class mainView(wx.Frame):
 
         #variables
         self.controlDB = motorDB()
+        urlIcons = os.path.dirname(__file__) + "/icons"
+        print("url icons : ", urlIcons)
 
-        loggin = logginView(self, (self.Size[0]/2, self.Size[1]/2 )).ShowModal()
+        loggin = logginView(self, (self.Size[0]/2, self.Size[1]/2 ), urlIcons).ShowModal()
         print("return modal : ", loggin)
 
         self.Layout()
