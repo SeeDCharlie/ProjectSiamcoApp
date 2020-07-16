@@ -67,12 +67,12 @@ class logginView(wx.Dialog):
         username = self.textCtrlUno.GetValue()
         passw = self.textCtrlDos.GetValue()
 
-        result = self.motor.execEstatement("select name from users where userName = ? and pass = ?", (username, passw,)).fetchone()
+        result = self.motor.execEstatements("select name from users where userName = ? and pass = ?", (username, passw,)).fetchone()
         print("resultado id user : ", result)
 
         if result != None:
             self.motor.closeDB()
-            wx.MessageDialog(None, "Vienbenido %s"%result , "SiamcoApp", wx.OK).ShowModal()
+            wx.MessageDialog(None, "Bienvenido %s"%result , "SiamcoApp", wx.OK).ShowModal()
             self.EndModal(True)
         elif username != "" and passw != "" :
             wx.MessageDialog(None, "Usuario o contraseña incorrectos" , "SiamcoApp", wx.OK).ShowModal()

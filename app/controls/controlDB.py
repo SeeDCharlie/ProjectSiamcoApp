@@ -37,7 +37,7 @@ class motorDB():
     def execEstatement(self, statement):
         return self.cursor.execute(statement)
     
-    def execEstatement(self, statement, dats):
+    def execEstatements(self, statement, dats):
         return self.cursor.execute(statement, dats)
 
     def existsDB(self):
@@ -69,8 +69,14 @@ class motorDB():
         else:
             self.createConexion()
             return True
+"""
+motor = motorDB("/home/seed/Documentos/siamco_db/app/")
+listaAct = motor.execEstatement("select cod, description, und, value from activities;").fetchall()
+for act in enumerate(listaAct):
+    print(act)
 
-
+motor.closeDB()
+"""
 
 
 

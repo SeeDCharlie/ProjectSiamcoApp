@@ -23,14 +23,13 @@ class mainView(wx.Frame):
         #notebooks
 
         self.notebookUno = wx.Notebook(self)
-        self.pageOne = self.notebookUno.AddPage(generateCotView(self.notebookUno), "Generar Cotizacion")
+        self.pageOne = self.notebookUno.AddPage(generateCotView(self.notebookUno, self.controlDB, self.urldir), "Generar Cotizacion")
         self.loadImageBook()
         #organizing sizers
         sizerUno.Add(self.notebookUno, 1, wx.EXPAND | wx.ALL, 1)
 
         #events
         self.Bind( wx.EVT_CLOSE, self.ParentFrameOnClose )
-
 
         self.SetSizer(sizerUno)
         self.Layout()
@@ -52,7 +51,6 @@ class mainView(wx.Frame):
         rl = []
         
         for i, f in enumerate(os.listdir(self.urldir+"/icons/iconsNoteBmainFrame" )):
-            print("ruta imagen : ", self.urldir+"/icons/iconsNoteBmainFrame/%s"%f )
             rl.append(li.Add(wx.Bitmap(self.urldir+"/icons/iconsNoteBmainFrame/%s"%f , wx.BITMAP_TYPE_PNG )))
         self.notebookUno.AssignImageList(li)
         for  imag in rl:
