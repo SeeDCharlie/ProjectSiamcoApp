@@ -6,9 +6,9 @@ from unidecode import unidecode
 
 class motorDB():
 
-    def __init__(self):
+    def __init__(self, url):
         self.conexion = None
-        self.db_url = fr"{os.path.abspath(os.getcwd())}/app/db/siamco_db.db"
+        self.db_url = fr"{url}/db/siamco_db.db"
         self.cursor = None
 
         if not self.existsDB():
@@ -17,8 +17,6 @@ class motorDB():
             print("db creada!")
         else :
             self.checkUpdates()
-            
-
 
     def createConexion(self):
         try:
@@ -33,11 +31,15 @@ class motorDB():
                 print("conexion exitosa!")
     
     def closeDB(self):
+        print("Conexion cerrada!!")
         self.conexion.close()
     
     def execEstatement(self, statement):
-        self.cursor.execute(statement)
-                
+        return self.cursor.execute(statement)
+    
+    def execEstatement(self, statement, dats):
+        return self.cursor.execute(statement, dats)
+
     def existsDB(self):
         return os.path.exists(self.db_url)
 
